@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>GTimes</title>
+        <!--Logo image at tab-->
+        <link rel="icon" href="data:image/png;base64,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">
+        
+        <!--Font Awesome CDN for Icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap CDN for Responsive -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <!--CSS -->
+        <link rel='stylesheet' href='home.css'>
+
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-sm fixed-top" id='navbarmain'>
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">            
+                    <span class="fa-stack">
+                    <i id="naviconbg" class="fa fa-square fa-stack-2x icon-background" aria-hidden="true"></i>
+                    <i id="navicon" class="fa fa-bars fa-stack-1x" aria-hidden="true"></i>
+                </span>
+            </a>
+              </li>
+              <li class="nav-item">
+               <h3 id='navtitle' >GTimes</h3>
+              </li>
+            </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fa-stack">
+                            <i id="naviconbg" class="fa fa-circle fa-stack-2x icon-background" aria-hidden="true"></i>
+                            <i id="navicon" class="fa fa-phone fa-stack-1x" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fa-stack">
+                            <i id="naviconbg" class="fa fa-circle fa-stack-2x icon-background" aria-hidden="true"></i>
+                            <i id="navicon" class="fa fa-search fa-stack-1x" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                  </li>
+              </ul>
+          </nav>
+
+        <!--Product Path-->  
+        <p id="prod-route">Home > Watches > Nibosi watches</p>
+       
+
+        <!--Lander-->
+        <section id="lander" class="d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-5 col-lg-6 d-flex justify-content-center video-box align-items-stretch">
+                    <div class="column">
+                  <img src="media/lanmain.png" class="img-fluid" alt="landimg" id="landimg">
+                  <div class="row">
+                  <div class = "img-select">
+                    <div class = "img-item">
+                      <a href = "#">
+                        <img  src = "media/lanmain.png" id ="imgitem" alt = "watch1">
+                      </a>
+                    </div>
+                    <div class = "img-item">
+                      <a href = "#" >
+                        <img  src = "media/watch2.jpg" id ="imgitem" alt = "watch2">
+                      </a>
+                    </div>
+                    <div class = "img-item">
+                        <a href = "#">
+                          <img src = "media/watch5.jpeg" id ="imgitem" alt = "watch3">
+                        </a>
+                      </div>
+                  </div>
+                </div>
+                   </div>
+                </div>
+                <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                    <h4>Royal Men's Watch</h4>
+                    <h1 id="item-title">NIBOSI Dress Chronograph Men's Watch (Blue Dial Silver Colored Strap)</h1>
+                    <div class="row">
+                        <p id="dis-cost">₹ 1499 /-</p>
+                        <p id="org-cost">₹ 2499</p>
+                    </div>                    
+                    <h4 style="margin-top: 15px;">Watch Information</h4>
+                    <h2  id="item-desc">Stay fashionable with Quartz watch from NIBOSI available on .
+                        This Chronograph watch has Round Blue Dial. The Silver colored
+                        straps in the watch are made of Stainless Steel .100% PREMIUM QUALITY WATCHES: We Are Providing Classic Watches for Men With 100% Premium Quality Quartz Movement. Our Watches Are Incredibly Durable and Can Last A Lifetime When Properly Maintained.
+                        BEST CHRONOGRAPH WATCH FOR MEN: High-Quality Nibosi Casual and Work Watch Has Three Chronograph Sub-Dials, 1/10 Seconds Sub-Dial, Seconds Sub-Dial and Minute Sub-Dial Which Provides Accurate and Precise Time at Less Than 10 Seconds of Error and A Rotating Sub-Dial. This watch has
+                        24 Month Warranty.
+                    </h2>
+                    <div class="row" id="item-colqty">
+                        <div class="column" id="item-colortxt">
+                            <h4>Color</h3>
+                            <img src="media/gold.png" id="item-color" width="27px" height="27px">
+                        </div>
+                        <div class="column" id="item-qtytxt">
+                            <h4 >Quantity</h3>
+                                <div id="item-countbox">
+                                    <p >1</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="wishlist-btn">
+                            <p>Wishlist</p>
+                        </div>
+                        <div class="buynow-btn">
+                            <p>Buy Now</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section> 
+          
+        <!--Suggestion -->  
+        <section id="suggslick" style="background-color: white;">
+            <div class="container" >
+              <!--Suggestion Content-->
+              <p id="ps1">Similar Products</p>
+              <p id="ps2" >You might also like</p>
+              <div class="row" id="suggrow">
+               <div id="nextchange">
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i> 
+               </div>   
+              <div class="suggbox">
+                <div class="column">
+                <img src="media/sugg1.jpg" >
+                <p id="sct1">BENYAR - Best Stylish Silver Wrist Watch for Men</p>
+                <p id="sct2" >₹ 2,490.00</p>
+                  </div>
+              </div>
+              <div class="suggbox">
+                <div class="column">
+                <img src="media/sugg2.jpg" >
+                <p id="sct1">Benling Sports Analogue - Digital Unisex </p>
+                <p id="sct2" >₹ 1,299.00</p>
+                  </div>
+              </div>
+              <div class="suggbox">
+                <div class="column">
+                <img src="media/sugg3.jpg" >
+                <p id="sct1">TIMEWEAR Analog Digital, Long Life Chain Plating </p>
+                <p id="sct2" >₹ 999.00</p>
+                  </div>
+              </div>
+              <div class="suggbox">
+                <div class="column">
+                <img src="media/sugg4.jpg" >
+                <p id="sct1">Espoir Mens ESP12457 Analog Blue Dial Watch</p>
+                <p id="sct2" >₹ 1,990.00</p>
+                  </div>
+              </div>
+              <div id="nextchange">
+                <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i> 
+               </div>   
+            </div>                  
+            </div>
+        </section>  
+
+        <!--Promotions-->
+        <section id="promotions">
+            <div class="row" style="width: 100%; margin: 0px;"> 
+                <img class="img-fluid" src="media/promo1.png" alt="Promotions"  style=" height: 400px; width: 50%;" >
+                <img class="img-fluid" src="media/promo2.jpg" alt="Promotions"  style=" height: 400px; width: 50%; " >
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="pagefooter">
+            <div class="row">
+            <!--Section-1 Footer-->
+            <div class="footer-sec1">
+                <p id="footer-title">Top Brands</p>
+                <h6>Caiso</h6>
+                <h6>Seiko</h6>
+                <h6>Citizen</h6>
+                <h6>Skagen</h6>
+                <h6>Fastrack</h6>
+            </div>
+            
+            <!--Section-2 Footer-->
+            <div class="footer-sec2">
+                <p id="footer-title">Quick Links</p>
+                <h6>Home </h6>
+                <h6>Cart</h6>
+                <h6>Your Account</h6>
+                <h6>Customer Support</h6>
+            </div>
+            
+            <!--Section-3 Footer-->
+            <div class="footer-sec3">
+                <p id="footer-title">Help</p>
+                <h6>About </h6>
+                <h6>Career</h6>
+                <h6>FAQs</h6>
+                <h6>Payments</h6>
+                <h6>Shippings</h6>
+            </div>
+            <!--Section-4 Footer-->
+            <div class="footer-sec4">
+                <div class="column">
+                    <p id="footer-title">Connect With Us</p>
+                    <div class="row" style="margin-left: 20px;padding-bottom: 10px;">
+                        <div>
+                            <span class="fa-stack">
+                                <i id="naviconbg" class="fa fa-circle fa-stack-2x icon-background" aria-hidden="true"></i>
+                                <i id="navicon" class="fa fa-envelope fa-stack-1x" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="fa-stack">
+                                <i id="naviconbg" class="fa fa-circle fa-stack-2x icon-background" aria-hidden="true"></i>
+                                <i id="navicon" class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-left: 20px;">
+                        <div>
+                            <span class="fa-stack">
+                                <i id="naviconbg" class="fa fa-circle fa-stack-2x icon-background" aria-hidden="true"></i>
+                                <i id="navicon" class="fa fa-instagram fa-stack-1x" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="fa-stack">
+                                <i id="naviconbg" class="fa fa-circle fa-stack-2x icon-background" aria-hidden="true"></i>
+                                <i id="navicon" class="fa fa-linkedin fa-stack-1x" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </footer>
+          </div>
+    </body>
+</html>

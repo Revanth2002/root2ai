@@ -1,0 +1,298 @@
+body{
+   background-color: #f8f8f8; 
+   font-family: "proxima-nova", sans-serif;
+}
+
+h4{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#navtitle{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*Navbar*/
+#navbarmain{
+    background-color: white;
+}
+
+.icon-background {
+    color: hsl(120, 33%, 98%);
+}
+
+#navicon{
+    color: black;
+}
+
+/* Lander */
+
+#landimg{
+    margin-top: 20px;
+}
+
+#imgitem{
+    object-fit : contain;
+    height :100px;
+    width :100px
+}
+
+.img-select{
+    display: flex;
+  }
+
+.img-item{
+    margin: 0.3rem;
+    background-color: #fff;
+}
+.img-item:nth-child(1){
+    margin-left: 80px;
+}
+  .img-item:nth-child(1),
+  .img-item:nth-child(2),
+  .img-item:nth-child(3){
+    margin-top: 45px;
+    margin-right: 0;
+}
+
+.img-item:hover{
+    opacity: 0.8;
+}
+  
+
+#prod-route{
+    font-family: 'Roboto',sans-serif;
+    color: #878787;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 35px;
+}
+
+#item-title{
+    font-size: 27px;
+    color: black;
+    margin-top: 10px;
+    font-family: "Roboto,sans-serif";
+    font-weight: 500;
+}
+
+#item-desc{
+    font-size: medium;
+    color: #05000086;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#dis-cost{
+    font-size: 25px;
+    margin-left: 35px;
+    margin-right: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #dfbb76;
+}
+#org-cost{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-top: 25px;
+    color: #cecaca;
+}
+
+#item-colqty{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+#item-qtytxt{
+    margin-left: 50px;
+}
+
+#item-countbox{
+    background-color: white;
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+#item-countbox>p{
+    font-weight: 500;
+    color: #141313;
+    padding-left: 19px;
+}
+
+#prod-route{
+    margin-top: 80px;
+}
+
+
+/*Wishlist btn*/
+.wishlist-btn,.buynow-btn{
+    width: 180px;
+    height: 40px;
+    border: #141313 solid 2.3px;
+    margin-top: 25px;
+    margin-left: 18px;
+    border-radius: 2px;
+}
+
+.wishlist-btn>p,.buynow-btn > p{
+    padding-left: 56px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.wishlist-btn:hover{
+     background-color: #141313;
+     color: white;
+}
+.buynow-btn:hover{
+    background-color: #f8f8f8;
+    color: #141313;
+}
+
+.buynow-btn{
+    background-color: #141313;
+    color: white;
+}
+
+
+/*Suggestion*/
+#suggslick > div > p{
+    text-align: center;
+    font-weight: 600;
+    font-family: "Roboto" ,sans-serif;
+}
+#ps1{
+    padding-top: 24px;
+    font-size: 16px; 
+    color: #05000086;
+    margin-bottom: 0;
+}
+#ps2{
+    font-size: 25px;
+}   
+
+.suggbox{
+    width: 240px;
+    height: 330px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+
+.suggbox > div >img {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 220px;
+}
+
+.suggbox > div > p {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#sct1{
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#sct2{
+    font-weight: 600;
+    color: #dfbb76;
+}
+
+
+#nextchange{
+    padding: 0;
+    margin-top: 120px;
+}
+
+#nextchange>i{
+    color: #cecaca;
+}
+
+#promotions{
+    width: 100%;
+}
+
+
+/*Footer*/
+
+.pagefooter{
+    background-color: white;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+	padding: 50px 50px 60px 50px;
+}
+
+.footer-sec1,.footer-sec2,.footer-sec3,.footer-sec4{
+    display: inline-block;
+	vertical-align: top;
+    width: 25%;
+}
+
+.footer-sec4 .icon-background{
+    border-radius: 40px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .suggbox {
+        width: 231px ;
+        margin-bottom: 0px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width:1000px) and(min-width:992px){
+    .suggbox {
+        width: 227px i !important;
+        margin-bottom: 0px !important; 
+        margin-left: 0px !important; 
+        margin-right: 0px !important;
+        margin-top: 18px !important;
+    }  
+}
+
+@media screen and (max-width:992px) {
+    .suggbox {
+        width: 171px ;
+        margin-bottom: 0px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+        margin-top: 18px;
+    }
+
+    .suggbox > div >img {
+        height: 166px;
+    }
+
+    
+    #nextchange{
+        padding: 0;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .img-item:nth-child(1){
+        margin-left: 110px;
+    } 
+}
+
+
